@@ -37,6 +37,26 @@ class SplashScreen extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 30),
+            Text(
+              'Find Your Dream ',
+              // style: TextStyle(color: Color(0xffE8E8E8), fontSize: 20),
+              style: GoogleFonts.roboto(
+                color: Color(0xffE8E8E8),
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 5),
+            Text(
+              'Destination With Us ',
+              // style: TextStyle(color: Color(0xffE8E8E8), fontSize: 20),
+              style: GoogleFonts.roboto(
+                color: Color(0xffE8E8E8),
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
